@@ -1,0 +1,4 @@
+pydub
+pillow
+bing-image-downloader
+faker
