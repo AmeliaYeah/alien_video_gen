@@ -48,7 +48,8 @@ for i in range(num_frames):
 
             #prep and paste
             try:
-                p = p.resize(dim, Image.Resampling.LANCZOS)
+                p = p.resize(dim, Image.LANCZOS)
+                #try changing Image.LANCZOS to Image.Resampling.LANCZOS if you're having issues with the images not appearing in the videos
                 img.paste(p.filter(ImageFilter.FIND_EDGES), (0,0))
             except:
                 pass
