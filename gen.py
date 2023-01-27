@@ -78,7 +78,7 @@ print(f"Video is {vid_len} long")
 with open("to_read.txt", "w") as to_read: to_read.write(f.paragraph())
 raw_params = [
     f"sine=f={random.randint(220, 1600)}:b={random.randint(0,4)}:d={vid_len}",
-    f"anoisesrc=a={random.randint(0,100)/100}:d={vid_len}",
+    f"anoisesrc=a={random.randint(0,100)/200}:d={vid_len}",
     "flite=textfile=to_read.txt"
 ]
 def create_sound(param_index):
