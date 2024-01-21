@@ -1,5 +1,5 @@
 # Alien Video Generator
-Random video generator, in python, that generates wacky and goofy ahh alien shitposts. Originally designed for Crispy Concords and his PO box unboxings.
+Random video generator, in python, that generates wacky and goofy ahh alien shitposts.
 
 This requires the `ffmpeg` binary to be installed on your system. Pip3 requirements are show in the `pip_requirements.txt` file. Please run `pip3 install -r pip_requirements.txt`.
 
