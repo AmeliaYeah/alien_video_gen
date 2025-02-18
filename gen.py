@@ -55,7 +55,7 @@ for i in range(num_frames):
                 pass
 
         #draw text
-        random_coord = lambda is_x: random.randint(0, (img.width//(1.2*font_mult) if is_x else img.height))
+        random_coord = lambda is_x: random.randint(0, img.height)
         random_coords = lambda: (random_coord(True), random_coord(False))
         for num_of_text in range(random.randint(0, 17)):
             text_to_write = "".join(random.choices(charset, k=random.randint(10,50)//font_mult))
